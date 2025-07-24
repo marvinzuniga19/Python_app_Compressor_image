@@ -34,7 +34,7 @@ class ImageCompressorApp(ttk.Window):
         self.keep_originals_check = ttk.Checkbutton(self.main_frame, text="Keep original files", variable=self.keep_originals_var, style="round-toggle")
 
         # Action Button
-        self.compress_button = ttk.Button(self.main_frame, text="Compress Images", command=self.start_compression, style="success-round")
+        self.compress_button = ttk.Button(self.main_frame, text="Compress Images", command=self.start_compression, style="success")
 
         # Progress Bar
         self.progress_bar = ttk.Progressbar(self.main_frame, orient="horizontal", mode="determinate")
