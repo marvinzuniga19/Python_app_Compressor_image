@@ -7,7 +7,7 @@ import os
 
 class ImageCompressorApp(ttk.Window):
     def __init__(self):
-        super().__init__(themename="superhero")
+        super().__init__(themename="darkly")
 
         self.title("Image Compressor")
         self.geometry("600x550")
