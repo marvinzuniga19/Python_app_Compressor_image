@@ -2,7 +2,10 @@
 
 A user-friendly tool to compress multiple images efficiently, featuring a modern interface built with Python, Tkinter, and ttkbootstrap.
 
-![Screenshot of the application](https://i.imgur.com/YOUR_SCREENSHOT_URL.png)  <!-- Replace with a real screenshot URL -->
+
+
+<img width="596" height="576" alt="compresroImagenes" src="https://github.com/user-attachments/assets/960e6bb2-92af-4e1b-8abf-0b5ef1ec52f0" /> <!-- Replace with a real screenshot URL -->
+ 
 
 ## Features
 
