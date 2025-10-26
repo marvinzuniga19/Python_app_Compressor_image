@@ -27,9 +27,9 @@ class ImageCompressorApp(ttk.Window):
 
         # Settings
         self.quality_label = ttk.Label(self.main_frame, text="Quality:")
-        self.quality_value_label = ttk.Label(self.main_frame, text="65")
+        self.quality_value_label = ttk.Label(self.main_frame, text="60")
         self.quality_scale = ttk.Scale(self.main_frame, from_=1, to=100, orient=tk.HORIZONTAL, command=self.update_quality_label)
-        self.quality_scale.set(65)
+        self.quality_scale.set(60)
         self.keep_originals_var = tk.BooleanVar()
         self.keep_originals_check = ttk.Checkbutton(self.main_frame, text="Keep original files", variable=self.keep_originals_var, style="round-toggle")
 

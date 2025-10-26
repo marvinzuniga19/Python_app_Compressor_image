@@ -24,8 +24,8 @@ def get_arguments():
     parser.add_argument(
         "-q", "--quality",
         type=int,
-        default=65,
-        help="Compression quality (1-100). Default is 65."
+        default=60,
+        help="Compression quality (1-100). Default is 60."
     )
     parser.add_argument(
         "--keep-originals",
