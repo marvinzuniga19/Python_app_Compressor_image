@@ -80,7 +80,7 @@ python compressor.py --input-dir <path_to_images> --output-dir <path_to_compress
 
 -   `-i, --input-dir` (Required): Path to the source directory.
 -   `-o, --output-dir` (Required): Path to the destination directory.
--   `-q, --quality` (Optional): Compression quality (1-100). Defaults to `65`.
+-   `-q, --quality` (Optional): Compression quality (1-100). Defaults to `60`.
 -   `--keep-originals` (Optional): Add this flag to prevent original files from being deleted.
 
 #### Example
